@@ -1,73 +1,192 @@
-# WebPack Configurations:
+<a name="readme-top"></a>
 
-1. Download this repository.
-2. Copy the content of it to your own newly-created repo and run the following commands consecutively.
-3. Initialize `npm`:
+<div align="center">
+  <br/>
+
+  <h3><b>Leaderboard</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+# 📖 [Leaderboard] <a name="about-project"></a>
+
+**[Leaderboard]** is a project you can save your scores
+
+## 🛠 Built With <a name="built-with"></a>
+
+- HTML5
+- CSS3
+- Javascript
+- Git version control
+- Webpack
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.microverse.org/">HTML5</a></li>
+    <li><a href="https://www.microverse.org/">CSS3</a></li>
+    <li><a href="https://www.microverse.org/">Javascript</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">VS CODE Live Server Extension</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **[Coming soon...]**
+
+In this project best coding practices is use
+
+## 🚀 Live Demo 
+For visiting the live demo click <a href="" name="live-demo">here</a>.
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+Google Chrome or other browser
 
 ```sh
-npm init -y
+  https://www.google.com/chrome/?brand=JJTC&gclid=CjwKCAjw9J2iBhBPEiwAErwpeSDcMFWiIQWj2u5GY6owZ7OaOHw7dYYCHW7uTR4kvYosNJYd4wt4VxoCiywQAvD_BwE&gclsrc=aw.ds
 ```
 
-4. Install WebPack
+Github Account:
+```sh
+  https://github.com/
+```
+Npm installed: 
+```sh
+  https://nodejs.org/en/download
+```
+
+Git installed: 
+```sh
+  https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+```
+
+### Setup
+
+Clone this repository to your desired folder:
 
 ```sh
-npm install webpack webpack-cli --save-dev
+  cd my-folder
+  git clone https://github.com/Gh-Reza/Leaderboard.git
 ```
 
-5. Install style-loader and css-loader.
+### Install
+
+Install this project with:
+
+In order to install this project run:
 
 ```sh
-npm install --save-dev style-loader css-loader
+  npm install
 ```
 
-6. install HtmlWebpackPlugin plugin:
+### Usage
+
+To run the project, execute the following command:
 
 ```sh
-npm install --save-dev html-webpack-plugin
+  cd Leaderboard
+  npm run build
+  npm start
 ```
 
-7. Install webpack-dev-server:
+### Run tests
+
+To run tests, run the following command:
+
+to check for styling errors:
 
 ```sh
-npm install --save-dev webpack-dev-server
+  npx stylelint "**/*.{css,scss}"
 ```
 
-8. Go to the `package.json` file and in the script property replace the following code with its previous value:
+to check for JS errors:
 
 ```sh
-"test": "echo \"Error: no test specified\" && exit 1",
-"start": "webpack serve --open",
-"build": "webpack"
+  npx eslint .
 ```
 
-9. Run following command to generate dist directory and its necessary file:
-
+To test optimization:
 ```sh
-npm run build
+  lighthouse [site url]
 ```
 
-10. Run following command to run project on the default browser using webpack-dev-server:
+### Deployment
 
-```sh
-npm start
-```
+You can deploy this project using:
 
-# Linters Configurations:
+Your working browser.
 
-1. Install Webhint:
+## 👥 Authors <a name="authors"></a>
 
-```sh
-npm install --save-dev hint@7.x
-```
+👤 **Reza Merzaie**
 
-2. Install stylelint:
+- GitHub: [@githubhandle](https://github.com/Gh-Reza)
+- Twitter: [@twitterhandle](https://twitter.com/RezaMerzaie)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/reza-merzaie-b94368202/)
 
-```sh
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
 
-3. Install ESLint:
+## 🔭 Future Features <a name="future-features"></a>
 
-```sh
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-```
+- [ ] **[Comming soon...]**
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Gh-Reza/Leaderboard/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, don't forget to star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
