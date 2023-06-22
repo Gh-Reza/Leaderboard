@@ -61,7 +61,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Coming soon...]**
+- **[API integration]**
+- **[User interaction: Users can add theire scores]**
+- **[Visual presentaion: Display the user name and score]**
 
 In this project best coding practices is use
 
@@ -163,7 +165,7 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Comming soon...]**
+- [ ] **[A stunning UI]**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
