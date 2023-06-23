@@ -165,7 +165,7 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[A stunning UI]**
+- [ ] **[Mobile app]**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
