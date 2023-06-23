@@ -20,13 +20,9 @@ const refresh = async () => {
   scoreCon.innerHTML = '';
 
   // for every item, inject an li to the score container
-  result.forEach((item, index) => {
+  result.forEach((item) => {
     let liElemtn = '';
-    if (index % 2 === 0) {
-      liElemtn = `<li class="score-item">${item.user}: ${item.score}</li>`;
-    } else {
-      liElemtn = `<li class="score-item even">${item.user}: ${item.score}</li>`;
-    }
+    liElemtn = `<li class="score-item">${item.user}: ${item.score}</li>`;
     scoreCon.innerHTML += liElemtn;
   });
 };
