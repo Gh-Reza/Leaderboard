@@ -68,7 +68,7 @@
 In this project best coding practices is use
 
 ## 🚀 Live Demo 
-For visiting the live demo click <a href="" name="live-demo">here</a>.
+For visiting the live demo click <a href="https://gh-reza.github.io/Leaderboard/dist/" name="live-demo">here</a>.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
