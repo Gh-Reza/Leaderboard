@@ -22,7 +22,7 @@ const refresh = async () => {
   // for every item, inject an li to the score container
   result.forEach((item) => {
     let liElemtn = '';
-    liElemtn = `<li class="score-item">${item.user}: ${item.score}</li>`;
+    liElemtn = `<li class="score-item"><span class="cols">${item.user}</span> <span class="cols">${item.score}</span></li>`;
     scoreCon.innerHTML += liElemtn;
   });
 };

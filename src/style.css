@@ -79,7 +79,7 @@ html {
 }
 
 .score-box {
-  border: 1px #ddd solid;
+  border: 1px #0c325573 solid;
 }
 
 .score-box ul {
@@ -90,6 +90,12 @@ html {
   padding: 8px;
   font-size: 1.4rem;
   font-weight: 600;
+  display: flex;
+}
+
+.cols {
+  display: block;
+  width: 50%;
 }
 
 .score-item:nth-child(even) {
