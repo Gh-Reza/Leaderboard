@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  background-color: #efefef;
+}
+
+/* ========= header ============ */
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header-section {
+  padding: 2.4rem 0;
+  background-color: #0c3255;
+  color: #efefef;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.primary {
+  font-size: 4.8rem;
+}
+
+/* ========== main section =============== */
+
+.section-main {
+  background-color: #efefef;
+  color: #0c3255;
+}
+
+.container-main {
+  display: flex;
+  padding: 9.6rem 0;
+}
+
+.recent-socres {
+  width: 50%;
+  padding: 2.4rem;
+}
+
+.scor-heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+}
+
+.secondary {
+  font-size: 3.2rem;
+  color: black;
+}
+
+.btn-refresh {
+  color: #0c3255;
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+
+.btn-refresh:hover {
+  cursor: pointer;
+}
+
+.score-box {
+  border: 1px #ddd solid;
+}
+
+.score-box ul {
+  border-left: 2px solid #0c3255;
+}
+
+.score-item {
+  padding: 8px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.score-item:nth-child(even) {
+  background-color: #0c3255;
+  color: #efefef;
+}
+
+.add-score {
+  width: 50%;
+  padding: 2.4rem;
+}
+
+.add-heading-wrapper {
+  padding: 2.4rem 0;
+}
+
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.form input {
+  margin-top: 1.2rem;
+}
+
+.input-name,
+.input-score {
+  border: none;
+  border-bottom: 2px solid #0c3255;
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.input-name {
+  margin-bottom: 1.2rem;
+}
+
+.btn-submit {
+  border: 2px solid #0c3255;
+  padding: 5px;
+  background-color: #0c3255;
+  color: #efefef;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.btn-submit:hover {
+  background-color: #efefef;
+  color: #0c3255;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container-main {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .recent-socres {
+    width: 100%;
+  }
+
+  .add-score {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
+
+.section-footer {
+  height: 9rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  color: #efefef;
+  padding-left: 10rem;
+  padding-top: 4rem;
+  font-size: 1.2rem;
+}
